@@ -140,4 +140,5 @@ OOPS-real-life-usage/
     │
     └── Mini_Project/
         ├── Mini_Project.cpp
-        └── Mini_Project_output.png
+        ├── Mini_Project_output_1.png
+        └── Mini_Project_output_2.png
