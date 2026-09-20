@@ -1,133 +1,318 @@
-# C++ OOPs – Unit II Practical Repository
+# OOPs - Real Life Usage
 
-Welcome to my **Object-Oriented Programming with C++ (OOPs)** practical repository.
+This repository contains the C++ programs completed as part of the **C++ Programming / Object-Oriented Programming (OOPs) activity**.
 
-This repository contains the programs developed for the **Unit II C++ Programming Activity**. The programs use real-world scenarios to demonstrate important Object-Oriented Programming concepts such as inheritance, abstraction, polymorphism, virtual functions, constructors, and dynamic memory management.
+The programs demonstrate important Object-Oriented Programming concepts such as classes, objects, encapsulation, inheritance, abstraction, polymorphism, virtual functions, operator overloading, and other C++ concepts through practical real-life examples.
 
----
+## Student Details
 
-## 👨‍🎓 Student Information
-
-| Field            | Details                              |
-| ---------------- | ------------------------------------ |
-| Student Name     | Shubham Narsale                      |
-| Roll No.         | AD2139                               |
-| PRN              | 125UAD1146                           |
-| Class / Division | SY B.Tech AI & DS – Div A            |
-| Subject          | Object Oriented Programming with C++ |
-| Unit             | Unit II                              |
+| Details | Information |
+|---|---|
+| Student Name | Shubham Narsale |
+| Roll No. | AD2139 |
+| PRN | 125UAD1146 |
+| Class / Division | SY B.Tech AI & DS – Div A |
+| Course Name | Object Oriented Programming with C++ |
+| Unit | Unit I, II, III |
 
 ---
 
-## 📚 Practical Programs
+## Unit I – Programs
 
-The following programs are included in this repository.
+### 1. Smart Farm Sensor Monitor
 
-### Program 1 – Employee Payroll System
+A farm sensor monitoring program that stores readings from multiple sensors. Each sensor contains information such as sensor ID, moisture level, and recording time. The program also allows a sensor reading to be updated when a new reading is received.
 
-This program represents an employee payroll system using different types of employees. It demonstrates how inheritance and polymorphism can be used to handle salary calculations for different employee categories.
-
-**Main concepts:**
+**Concepts used:**
 
 - Classes and Objects
-- Constructors
-- Inheritance
 - Encapsulation
-- Function Overriding
-- Virtual Functions
-- Polymorphism
-- Salary Calculation
-
----
-
-### Program 2 – Payment Gateway
-
-This program models a basic payment gateway supporting multiple payment methods, including Credit Card, UPI, and Net Banking.
-
-An abstract base class is used to define a common payment interface, while each derived class provides its own implementation.
-
-**Main concepts:**
-
-- Abstraction
-- Abstract Class
-- Pure Virtual Function
-- Inheritance
-- Function Overriding
-- Runtime Polymorphism
-- Smart Pointers
-
----
-
-### Program 3 – Vehicle Fleet Management
-
-This program manages a fleet containing different vehicles such as trucks, delivery vans, and delivery bikes.
-
-The program demonstrates how a common base class can be used for different vehicle types while allowing each vehicle to display its own specific information.
-
-**Main concepts:**
-
-- Inheritance
-- Base and Derived Classes
-- Function Overriding
-- Virtual Functions
-- Runtime Polymorphism
-- `unique_ptr`
+- Private Data Members
+- Constructors
+- Constant Member Functions
 - STL Vector
+- Updating Object Data
 
----
+### 2. Student Attendance Tracker
 
-### Mini Project – Banking Management System
+A student attendance program that records the attendance of students and calculates their attendance percentage based on the number of classes attended and total classes conducted.
 
-The mini project is a menu-based banking application that supports different types of bank accounts such as Savings Account, Current Account, and Fixed Deposit Account.
-
-Users can enter account information and perform operations such as depositing money, withdrawing money, displaying account details, and calculating interest.
-
-**Main concepts:**
+**Concepts used:**
 
 - Classes and Objects
+- Encapsulation
+- Constructors
+- Member Functions
+- Constant Member Functions
+- Attendance Percentage Calculation
+
+### 3. Product Inventory Manager
+
+An inventory management program that stores product information such as product ID, name, price, and available stock. It also maintains the total number of products using a static data member.
+
+**Concepts used:**
+
+- Classes and Objects
+- Constructors and Destructors
+- Getter Functions
+- Static Data Members
+- Static Member Functions
+- Constant Member Functions
+
+### MINI_PROJECT : Smart Home Manager
+
+A menu-driven smart home management program that handles different devices such as Smart Light, Thermostat, Security Camera, and Door Lock. The user can view the home dashboard, switch devices ON or OFF, and update device status using the device ID.
+
+**Concepts used:**
+
 - Inheritance
-- Abstraction
-- Pure Virtual Functions
-- Polymorphism
+- Protected Members
 - Virtual Functions
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Destructor
 - Dynamic Memory Allocation
 - Menu-Driven Programming
 
 ---
 
-## 💡 OOP Concepts Demonstrated
+## Unit II – Programs
 
-Across the practical programs, the following C++ and OOP concepts are implemented:
+### 1. Employee Payroll System
+
+An employee payroll system using an abstract Employee base class and different employee types such as Full-Time Employee, Part-Time Employee, and Intern. Each employee type calculates salary according to its own method.
+
+**Concepts used:**
 
 - Classes and Objects
+- Inheritance
+- Encapsulation
+- Constructors with Initializer Lists
+- Abstract Classes
+- Pure Virtual Functions
+- Function Overriding
+- Salary Calculation
+- Polymorphism
+
+### 2. Payment Gateway System
+
+A payment gateway program that supports multiple payment methods such as Card, UPI, and Net Banking. Different payment types are handled through a common abstract interface and stored using smart pointers.
+
+**Concepts used:**
+
+- Abstraction
+- Abstract Classes
+- Pure Virtual Functions
+- Inheritance
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Destructor
+- Smart Pointers
+- STL Vector
+
+### 3. Vehicle Fleet Management
+
+A vehicle fleet management program that handles different vehicle types such as Truck, Delivery Van, and Bike. Each vehicle provides its own implementation for displaying vehicle information and performing vehicle-related operations.
+
+**Concepts used:**
+
+- Inheritance
+- Protected Members
+- Function Overriding
+- Virtual Functions
+- Runtime Polymorphism
+- Virtual Destructor
+- Smart Pointers
+- STL Vector
+
+### MINI_PROJECT : Banking Management System
+
+A menu-driven banking application that manages different types of bank accounts. The system supports account creation, deposit, withdrawal, displaying account information, and interest calculation.
+
+The program demonstrates how inheritance and polymorphism can be used to represent different account types in a real-world banking system.
+
+**Concepts used:**
+
+- Inheritance
+- Abstraction
+- Abstract Classes
+- Pure Virtual Functions
+- Virtual Functions
+- Runtime Polymorphism
+- Virtual Destructor
+- Dynamic Memory Allocation
+- Menu-Driven Programming
+
+---
+
+## Unit III – Programs
+
+### 1. Shape Area System
+
+A shape area calculation program that uses an abstract Shape base class with different derived shapes such as Circle, Rectangle, and Triangle. Each shape calculates its area using its own implementation.
+
+**Concepts used:**
+
+- Abstraction
+- Abstract Classes
+- Pure Virtual Functions
+- Inheritance
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Destructor
+- Smart Pointers
+- STL Vector
+
+### 2. Complex Number Operations
+
+A complex number program that demonstrates operator overloading. Complex numbers can be added, subtracted, multiplied, and compared using overloaded operators.
+
+**Concepts used:**
+
+- Operator Overloading
+- Addition Operator (`+`)
+- Subtraction Operator (`-`)
+- Multiplication Operator (`*`)
+- Equality Operator (`==`)
 - Constructors
+- Default Arguments
+- Constant Member Functions
+- Returning Objects by Value
+
+### 3. Data Checker
+
+A data validation program that checks different types of user data according to predefined conditions. It validates marks, transaction amounts, and names.
+
+**Concepts used:**
+
+- Classes and Objects
+- Input Validation
+- String Handling
+- Character Functions
+- `isalpha()`
+- Range-Based For Loop
+- Constant Member Functions
+- Conditional Statements
+
+### MINI_PROJECT : Media Player
+
+A media player simulation that handles different types of media such as Audio, Video, and Image. All media types are derived from a common Media base class and provide their own implementations for play, pause, stop, and display operations.
+
+**Concepts used:**
+
+- Inheritance
+- Protected Members
+- Virtual Functions
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Destructor
+- Dynamic Memory Allocation
+- STL Vector
+- Base Class Pointers
+
+---
+
+## Concepts Covered
+
+### Unit I
+
+- Classes and Objects
+- Encapsulation
+- Constructors and Destructors
+- Constant Member Functions
+- Static Data Members
+- Static Member Functions
+- Getter Functions
+- Inheritance
+- Protected Members
+- Virtual Functions
+- Function Overriding
+- Runtime Polymorphism
+- Dynamic Memory Allocation
+- STL Vector
+
+### Unit II
+
+- Classes and Objects
 - Inheritance
 - Encapsulation
 - Abstraction
 - Abstract Classes
 - Pure Virtual Functions
-- Polymorphism
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Functions
+- Virtual Destructor
+- Smart Pointers
+- STL Vector
+- Dynamic Memory Allocation
+- Menu-Driven Programming
+
+### Unit III
+
+- Abstract Classes
+- Pure Virtual Functions
+- Inheritance
 - Runtime Polymorphism
 - Virtual Functions
 - Function Overriding
-- Dynamic Memory Allocation
+- Operator Overloading
+- Constructors
+- Default Arguments
+- Input Validation
+- String Handling
+- Character Functions
 - Smart Pointers
-- STL Vector
-
-These concepts are implemented through practical examples rather than only theoretical demonstrations.
+- Dynamic Memory Allocation
+- Real-Life Applications of OOP Concepts
 
 ---
 
-## 📂 Project Organization
-
-The repository is arranged according to the Unit II practical work:
+## Repository Structure
 
 ```text
 OOPS-real-life-usage/
 │
 ├── README.md
 │
-└── Unit_2/
+├── Unit_1/
+│   │
+│   ├── Program_1/
+│   │   ├── Program_1.cpp
+│   │   └── Program_1_output.png
+│   │
+│   ├── Program_2/
+│   │   ├── Program_2.cpp
+│   │   └── Program_2_output.png
+│   │
+│   ├── Program_3/
+│   │   ├── Program_3.cpp
+│   │   └── Program_3_output.png
+│   │
+│   └── Mini_Project/
+│       ├── Mini_Project.cpp
+│       └── Mini_Project_output.png
+│
+├── Unit_2/
+│   │
+│   ├── Program_1/
+│   │   ├── Program_1.cpp
+│   │   └── Program_1_output.png
+│   │
+│   ├── Program_2/
+│   │   ├── Program_2.cpp
+│   │   └── Program_2_output.png
+│   │
+│   ├── Program_3/
+│   │   ├── Program_3.cpp
+│   │   └── Program_3_output.png
+│   │
+│   └── Mini_Project/
+│       ├── Mini_Project.cpp
+│       ├── Mini_Project_output_1.png
+│       └── Mini_Project_output_2.png
+│
+└── Unit_3/
     │
     ├── Program_1/
     │   ├── Program_1.cpp
@@ -143,6 +328,4 @@ OOPS-real-life-usage/
     │
     └── Mini_Project/
         ├── Mini_Project.cpp
-        ├── Mini_Project_output_1.png
-        └── Mini_Project_output_2.png
-```
+        └── Mini_Project_output.png
