@@ -329,3 +329,57 @@ OOPS-real-life-usage/
     └── Mini_Project/
         ├── Mini_Project.cpp
         └── Mini_Project_output.png
+```
+
+Each program folder contains its corresponding C++ source code and output screenshot(s), wherever applicable.
+
+---
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open the required `.cpp` file.
+3. Compile the program using a C++ compiler.
+4. Run the generated executable.
+
+Example:
+
+```bash
+g++ program.cpp -o program
+./program
+```
+
+---
+## Technologies Used
+Programming Language: C++
+Programming Paradigm: Object-Oriented Programming
+Compiler: GCC / G++
+STL: Vector, Smart Pointers
+Version Control: Git
+Repository Hosting: GitHub
+
+
+---
+## Purpose
+
+The purpose of this repository is to implement and understand Object-Oriented Programming concepts in C++ through practical and real-life examples.
+
+The programs provide practical understanding of concepts such as encapsulation, inheritance, abstraction, polymorphism, virtual functions, operator overloading, smart pointers, and dynamic memory management.
+
+
+---
+## CIE Activity
+
+This repository is prepared as part of the C++ Programming / Object-Oriented Programming CIE Activity.
+
+The programs are organized unit-wise and include the corresponding source code and outputs wherever applicable.
+
+
+---
+## Author
+
+Shubham Narsale
+
+SY B.Tech AI & DS – Div A
+
+Object Oriented Programming with C++
